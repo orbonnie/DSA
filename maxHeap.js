@@ -18,7 +18,7 @@ class maxHeap {
 
   }
 
-  // Recursive insert
+  // Recursive solution
 
   insertNode(val) {
     const v = this.values;
@@ -67,7 +67,7 @@ class maxHeap {
     return max;
   }
 
-  // Recursive extract
+  // Recursive solution
 
   extractMax(){
     const v = this.values;
@@ -106,7 +106,6 @@ class maxHeap {
 
 let heap = new maxHeap();
 heap.values = [41, 39, 33, 18, 36, 12];
-
 heap.insertNode(55)
 heap.extractMax();
 heap.extractMax();
