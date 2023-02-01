@@ -31,6 +31,10 @@ class Graph {
     list[v1.val].delete(v2);
     list[v2.val].delete(v1);
   }
+
+  contains(v) {
+    return v.val in this.adjacencyList;
+  }
 }
 
 // const g = new Graph();
